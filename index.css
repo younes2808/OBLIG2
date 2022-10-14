@@ -1,0 +1,296 @@
+.tittel{
+    border-top-left-radius: 10px;
+    position: absolute;
+    top: 3%;
+    left: 12%;
+    width: 24.75%;
+    height: 25%;
+   
+    z-index: 0;
+}
+.tittel1{
+    border-top-left-radius: 10px;
+    position: absolute;
+    top: 3%;
+    left: 24.25%;
+    width: 24.75%;
+    height: 25%;
+    background-color:  rgb(93, 233, 255);
+    z-index: -1;
+}
+
+.tittel2{
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    width: 23.25%;
+    height: 25%;
+    background-color: rgb(93, 233, 255);
+    z-index: -1;
+}
+
+
+.topplinje {
+    border-color: transparent;
+    color: black;
+    width: 98%;
+     position:absolute;
+     left: 1%;
+     top: 5%;
+}
+
+.vertical {
+    box-shadow: 1px 1px 1px 1px grey;
+    height: 100%;
+    position:absolute;
+    left: 50%;
+    top: 0%;
+}
+
+.vertical2 {
+    border-left: 1px solid rgb(69, 63, 63);
+    height: 85%;
+    position:absolute;
+    left: 82%;
+    top: 8%;
+}
+
+.verticalliten {
+    border-left: 1px solid rgb(69, 63, 63);
+    height: 11.6%;
+    position:absolute;
+    left: 66%;
+    top: 12.5%;
+}
+
+.linje {
+    border-color: transparent;
+    color: black;
+    width: 79.5%;
+    position:absolute;
+    left: 1%;
+    top: 23%;
+    right: 22%;
+    box-shadow:         inset 0px 1px 1px -3px rgba(50, 50, 50, 0.75);
+}
+
+.litenlinje {
+    border-color: transparent;
+    color: black;
+    width: 15%;
+    position:absolute;
+    left: 83.5%;
+    top: 50%;
+    right: 0%
+}
+
+.litenlinje2 {
+    border-color: transparent;
+    color: black;
+    width: 7%;
+    position:absolute;
+    left: 73%;
+    top: 51%;
+    right: 0%
+}
+.litenlinje2:before {
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    position: absolute;
+    top: 51%;
+    top: 0px;
+    color: #000;
+    font-size: 5.5em;
+}
+
+.bilde  {
+    position: absolute;
+    top: 28%;
+    left: 9.5%;
+    width: 47.4%;
+    height: 64%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: contain;
+} 
+.bilde img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.titteltekst{
+    position: absolute;
+    left: 47%;
+    top: 21%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 90px;
+    font-family: 'Abril Fatface', cursive;
+}
+.tittelparagraf{
+    position: absolute;
+    color: white;
+    position: absolute;
+    font-size: x-small;
+    left: 61%;
+    top: 87%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto Slab', serif;
+}
+.bunnlinje {
+    size: 1;
+   border-color: transparent;
+   color: black;
+   width: 98%;
+    position:absolute;
+    left: 1%;
+    top: 95%;
+}
+.tekst{
+    position: absolute;
+    top: 28%;
+    left: 2%;
+    right: 86.5%;
+    color: black;
+}
+.tekst h1{
+    font-size: 0px;
+    line-height: 80%;
+}
+.tekst h2{
+    font-size: xx-small;
+    font: inherit;
+    border-bottom: inset 1px black;
+}
+.tekst p{
+    font-size: 12px;
+    font: quicksand;
+}
+
+.bunntekst{
+    position: absolute;
+    top: 96%;
+    left: 2%;
+    right: 87%;
+    font-size: 9px;
+}
+.sidebilde {
+    position: absolute;
+    top: 8%;
+    left: 82.5%;
+    width: 17%;
+    height: 24%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: contain;
+}
+.sidebilde img {
+
+    min-width: 100%;
+    min-height: 100%;
+}
+.overskrift1 {
+    position: absolute;
+    left: 58%;
+    top: 12%;
+    right: 32%;
+}
+.overskrift1tekst {
+    position: absolute;
+    left: 65%;
+    top: 11%;
+    right: 10%;
+    width: 12%;
+    font-size: 10px;
+}
+.tekst1{
+    position: absolute;
+    top: 24%;
+    left: 62%;
+    width: 10%;
+    height: 72.2%;
+}
+.tekst2 {
+    position: absolute;
+    top: 24%;
+    left: 51%;
+    width: 10%;
+    height: 72.2%;
+}
+.dobbeltekst {
+    font-size: small;
+}
+.tekstoverbilde {
+    position: absolute;
+    top: 52%;
+    left: 73%;
+    width: 8%;
+    height: 10%;
+    font-size: 16.2px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.tittelunderbilde  {
+    position:fixed;
+    top: 31%;
+    left: 85.5%;
+    width: 10%;
+    height: 1%;
+    line-height:85%;
+    font-size: 19px;
+    
+}
+
+.tekstunderbilde  {
+    position:fixed;
+    top: 42%;
+    left: 85.5%;
+    width: 10%;
+    height: 1%;
+    line-height:110%;
+    font-size: 11px;
+    
+}
+
+.teksthøyrenede {
+    position: absolute;
+    top: 52%;
+    left: 84%;
+    width: 14%;
+    height: 43%;
+
+    font-size: 12.5px;
+}
+.bildeundertekst {
+    position: absolute;
+    top: 79%;
+    left: 73%;
+    width: 7%;
+    height: 15%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: contain;
+}
+.bildeundertekst img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%; 
+}
+#wicked {
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 0%;
+}
